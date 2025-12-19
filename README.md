@@ -14,9 +14,11 @@ Github Codespaces
 
 **Generating firmware which is used to initialize instruction memory in the RTL**
 
+
 <img width="1919" height="1026" alt="Image" src="https://github.com/user-attachments/assets/768418b9-5a7f-435d-90f5-87414c6612d5" />
 
 
 
-4. RISC-V core access memory and memory-mapped IO's with the SoC address decoding address to route access to memory or peripherals.
-5. New IP block is accessed as a memory-mapped peripheral instantiated in the SoC RTL and accessed by firmware via a defined address range.
+
+3. RISC-V core access memory and memory-mapped IO's with the SoC address decoding address to route access to memory or peripherals.
+4. New IP block is accessed as a memory-mapped peripheral instantiated in the SoC RTL and accessed by firmware via a defined address range.

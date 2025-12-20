@@ -12,7 +12,7 @@ Github Codespaces
 **Generating firmware which is used to initialize instruction memory in the RTL**
 
 
-<img width="1919" height="1026" alt="Image" src="https://github.com/user-attachments/assets/768418b9-5a7f-435d-90f5-87414c6612d5" />
+<img width="1915" height="1030" alt="Image" src="https://github.com/user-attachments/assets/b48d8eb4-76d6-4934-9ae8-2e7961b17124" />
 
 
 1. RISC-V program is located in the samples directory in the vsd-riscv2 repository.

@@ -32,3 +32,7 @@ GPIO module is instantiated inside the SoC module.
 adding an extra bit for gpio IP
 
 <img width="1365" height="499" alt="Image" src="https://github.com/user-attachments/assets/bec59f1c-ace6-4679-97c9-74373a7c6448" />
+
+**Simulation**
+
+

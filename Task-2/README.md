@@ -1,5 +1,5 @@
 
-GPIO module is instantiated inside the SoC module
+GPIO module is instantiated inside the SoC module.
 
 <img width="1371" height="495" alt="Image" src="https://github.com/user-attachments/assets/c5fc412a-ca07-4c98-a4a7-e3c622e74de7" />
 

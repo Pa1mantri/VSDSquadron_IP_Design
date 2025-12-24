@@ -1,4 +1,30 @@
 
+**Implementing GPIO IP as a memory mapped peripheral**
+
+GPIO RTL: gpio_ip.v
+
+```
+module gpio_ip(
+    input clk,
+    input resetn,
+    input sel,
+    input [31:0] wdata,
+    input wr_enable,
+    output [31:0] rdata,
+    output reg [31:0] gpio_out
+);
+always@(posedge clk) begin
+if(!resetn)
+gpio_out <= 32'h00000000;
+else if (sel && wr_enable)
+gpio_out <= wdata;
+end
+
+assign rdata = gpio_out;
+endmodule
+
+```
+
 GPIO module is instantiated inside the SoC module.
 
 <img width="1371" height="495" alt="Image" src="https://github.com/user-attachments/assets/c5fc412a-ca07-4c98-a4a7-e3c622e74de7" />

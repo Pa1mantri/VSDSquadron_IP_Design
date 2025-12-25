@@ -35,4 +35,4 @@ Adding address offset that triggers gpio IP
 
 **Simulation**
 
-
+Simulation requires a stub module to mock the FPGA's internal primitives (PLL and Oscillator); this can be provided via a standalone ice40_primitives.v file or defined locally inside the testbench.

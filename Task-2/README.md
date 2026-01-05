@@ -165,3 +165,14 @@ Read: 5
 ```
 
 <img width="1906" height="898" alt="Image" src="https://github.com/user-attachments/assets/1f1e516a-1d9b-46f4-bad6-718d09dd615c" />
+
+### GTKWAVEFORM:
+
+``wdata`` and ``mem_wdata`` are 5 at ``mem_addr`` 00400020
+
+<img width="1754" height="890" alt="Image" src="https://github.com/user-attachments/assets/43d09d12-9832-4ab9-a882-ebd260d0a4cc" />
+
+``gpio_out`` signal is 5 in the next clock cycle.
+
+<img width="1609" height="897" alt="Image" src="https://github.com/user-attachments/assets/5f435540-dc76-4b75-97d9-bae41a3c5cd7" />
+
